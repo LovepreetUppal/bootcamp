@@ -1,0 +1,249 @@
+body {
+    margin:0;
+    font-family: 'Pacifico', cursive;
+
+}
+.main-nav{
+    background: #ccc;
+    padding: 15px;
+    height:50px;
+}
+
+.logo {
+    height:60px;
+    width:100px;
+}
+.nav-list{
+    float:right;
+    list-style:none;
+}
+
+.nav-items{
+    float:left;
+    margin-left:15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+    
+}
+
+.nav-link:hover{
+    color:blue;
+    
+}
+
+.hero-section{
+ background-image: url('../images/ice.jpg');   
+ height:350px;
+ background-repeat: no-repeat;
+ background-size:cover;
+}
+.brand-name{
+    text-align:center;
+    margin:0;
+    color:#fff;
+    padding-top:175px;
+    font-size:35px;
+}
+
+.brand-background{
+    background-color: rgba(0,0,0,.5);
+    padding:25px;
+}
+.info-column{
+    padding:15px;
+}
+
+.info-column::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.column{
+    width: 30%;
+    float:left;
+    text-align:center;
+    margin-left:1%;
+    float: left;
+    
+    
+}
+
+.column-image{
+    height:250px;
+    width:100%;
+}
+
+.column-button{
+    padding:6px 12px;
+    border-radius:8px;
+    border:none;
+    background:#ffe135;
+}
+/*** End of column section styles***/
+/*** despription section styles***/
+
+.sprinkles-container{
+ content:"";
+ display:block;
+ clear:both;
+} 
+
+.description-column{
+    width:50%;
+    float:left;
+    
+}
+
+.description-column p {
+    padding:0px 15px;
+    text-align:center; 
+    
+}
+.description-background{
+    background:cyan;
+    height:300px;;
+}
+/*** Start footer styles***/
+
+.footer-container{
+    height:60px;
+    padding:15px;
+    border:1px solid #000;
+    clear:both;
+}
+
+.box{
+    height:25px;
+    width:25px;
+    padding:5px;
+    text-align: center;
+    background: radial-gradient(green, white);
+}
+
+.social-media-container{
+    width:15%;
+}
+
+.social-media-container .fa{
+    font-size:18px;
+    color:blue;
+    margin-left:15%;
+}
+
+.contact-container{
+    width:70%;
+    text-align: center;
+    
+}
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.contact-info{
+    text-align: center;
+    display:inline-block;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.copyright{
+    display: inline-block;
+    margin: 0px 15px;
+    
+}
+
+
+
+/*** End footer styles***/
+
+/***contact page styles***/
+
+.form-container {
+    width:50%;
+    margin:0 auto;
+    padding: 25px 25px 0px 25px;
+    background: rgba(210, 210, 155, .45);
+}
+
+.contact-header{
+    text-align:center;
+    color:#A52A2A;
+    margin-top: 0px;
+    padding-top:10px;
+    font-size: 32px;
+    
+}
+
+.header{
+    font-size:35px;
+    text-align:center;
+    margin:0;
+    color:#fff;
+    padding-top:20px;
+}
+
+.header-background{
+    background-color: rgba(0,0,0,.5);
+    padding:20px;
+}
+
+.about-section{
+    height:500px;
+    width:45%;
+    border:10px solid navy;
+    padding:20px;
+    margin:10px;
+    float:left;
+}
+.header-about{
+    text-align: center;
+    font-size:26px;
+    
+}
+
+.bullet-points{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:20px;
+}
+
+.paragraph{
+    font-size:20px;
+}
+.ronaldo{
+    height:500px;
+    width:829px;
+    
+}
+
+.third-box{
+    width:100%;
+    height:700px;
+    border:5px solid black;
+    float:left;
+}
+.banner{
+    height:100px;
+    background:pink;
+}
+
+.icecream-animate{
+    height:100px;
+    top: 25%;
+    left:45%;
+    transition:all 2s;
+    position:absolute;
+}
+.icecream-animate:hover{
+    height:200px;
+    left:90%;
+    transform:rotateX(360deg);
+}
